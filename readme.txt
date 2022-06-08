@@ -1,0 +1,3 @@
+The program hmm.py should be executed on a linux machine. the train_data argument names the directory to use, the hidden_states argument is self explanatory as well
+as max_iters. The epsilon argument is the barrier for log likelihood absolute change before the model is considered to have "converged." 
+The subsamples argument names the max amount of sequences of a dataset that will be allowed to be processed; it is by default 5000, so change that if neccesary.
