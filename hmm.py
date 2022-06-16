@@ -334,8 +334,9 @@ def main():
         prev = next
     end = time()
 
-    # completed = model.complete_sequence(udata[2][0:49], 2)
-    # print(str(udata[2][49]) + " vs " + str(completed[49]) + ", " + str(udata[2][50]) + " vs " + str(completed[50]))
+    completed = model.complete_sequence(udata[2][0:49], 5)
+    print(str(udata[2][49]) + " vs " + str(completed[49]) + ", " + str(udata[2][50]) + " vs " + str(completed[50]))
+    print(completed)
 
     print('Done in', end - begin, 'seconds.')
 
